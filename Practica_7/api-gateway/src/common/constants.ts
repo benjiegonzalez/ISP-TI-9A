@@ -1,0 +1,39 @@
+export enum RabbitMQ {
+  UserQueue = 'users',
+  DepartamentoQueue = 'departamentos',
+  DepartamentoUsuarioQueue = 'departamentoUsuarios',
+  // ProcesoDeterminadoQueue = 'procesoDeterminados',
+}
+
+export enum UserMSG {
+  CREATE = 'CREATE_USER',
+  FIND_ALL = 'FIND_USERS',
+  FIND_ONE = 'FIND_USER',
+  UPDATE = 'UPDATE_USER',
+  DELETE = 'DELETE_USER',
+  VALID_USER = 'VALID_USER',
+}
+
+export enum DepartamentoMSG {
+  CREATE = 'CREATE_DEPARTAMENTO',
+  FIND_ALL = 'FIND_DEPARTAMENTOS',
+  FIND_ONE = 'FIND_DEPARTAMENTO',
+  UPDATE = 'UPDATE_DEPARTAMENTO',
+  DELETE = 'DELETE_DEPARTAMENTO',
+}
+
+export enum DepartamentoUsuarioMSG {
+  CREATE = 'CREATE_DEPARTAMENTO_USUARIO',
+  FIND_ALL = 'FIND_DEPARTAMENTO_USUARIOS',
+  FIND_ONE = 'FIND_DEPARTAMENTO_USUARIO',
+  UPDATE = 'UPDATE_DEPARTAMENTO_USUARIO',
+  DELETE = 'DELETE_DEPARTAMENTO_USUARIO',
+}
+
+// export enum ProcesoDeterminadoMSG {
+//   CREATE = 'CREATE_PROCESO_DETERMINADO',
+//   FIND_ALL = 'FIND_PROCESO_DETERMINADOS',
+//   FIND_ONE = 'FIND_PROCESO_DETERMINADO',
+//   UPDATE = 'UPDATE_PROCESO_DETERMINADO',
+//   DELETE = 'DELETE_PROCESO_DETERMINADO',
+// }
